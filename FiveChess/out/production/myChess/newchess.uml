@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="0.0" y="250.0">Controller.PlayerControl</node>
+    <node x="445.0" y="410.0">utils.AiStack</node>
+    <node x="135.0" y="490.0">Test.test</node>
+    <node x="187.0" y="250.0">AllView.PlayerView</node>
+    <node x="293.0" y="85.0">Log.AiLog</node>
+    <node x="352.0" y="0.0">Interfaces.Log</node>
+    <node x="391.0" y="85.0">Log.PlayLog</node>
+    <node x="473.0" y="330.0">AllView.HelpView</node>
+    <node x="318.0" y="330.0">utils.BoardUtil</node>
+    <node x="85.0" y="0.0">Interfaces.TryPlay</node>
+    <node x="250.0" y="490.0">Controller.Ai</node>
+    <node x="350.0" y="250.0">utils.LoginUtil</node>
+    <node x="0.0" y="490.0">AllView.AiView</node>
+    <node x="0.0" y="170.0">AllChess.PlayerChess</node>
+    <node x="0.0" y="410.0">AllView.MainView</node>
+    <node x="150.0" y="170.0">AllChess.AiChess</node>
+    <node x="151.0" y="410.0">utils.FileUtil</node>
+    <node x="0.0" y="330.0">utils.JudgeUtil</node>
+    <node x="159.0" y="330.0">Controller.AiControl</node>
+    <node x="91.0" y="85.0">AllChess.Chess</node>
+    <node x="302.0" y="410.0">AllView.LogView</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Log.PlayLog" target="Interfaces.Log">
+      <point x="0.0" y="-17.5" />
+      <point x="438.0" y="60.0" />
+      <point x="401.5" y="60.0" />
+      <point x="16.5" y="17.5" />
+    </edge>
+    <edge source="AllChess.AiChess" target="AllChess.Chess">
+      <point x="0.0" y="-17.5" />
+      <point x="199.0" y="145.0" />
+      <point x="152.5" y="145.0" />
+      <point x="20.5" y="17.5" />
+    </edge>
+    <edge source="AllChess.Chess" target="Interfaces.TryPlay">
+      <point x="0.0" y="-17.5" />
+      <point x="0.0" y="17.5" />
+    </edge>
+    <edge source="AllChess.PlayerChess" target="AllChess.Chess">
+      <point x="0.0" y="-17.5" />
+      <point x="65.0" y="145.0" />
+      <point x="111.5" y="145.0" />
+      <point x="-20.5" y="17.5" />
+    </edge>
+    <edge source="Log.AiLog" target="Interfaces.Log">
+      <point x="0.0" y="-17.5" />
+      <point x="332.0" y="60.0" />
+      <point x="368.5" y="60.0" />
+      <point x="-16.5" y="17.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.6000000000000001" x="619.0" y="325.49999999999994" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
